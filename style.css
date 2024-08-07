@@ -1,0 +1,509 @@
+*{
+    margin:0;
+    padding: 0;
+   
+   
+    
+}
+
+
+body{
+    overflow-x: hidden;
+   
+    
+}
+
+.f-nav p{
+    cursor: pointer;
+    color: white;
+    font-family:Inter, sans-serif;
+    font-weight: 800px;
+}
+
+.f-nav{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    background-image: url("https://images-static.naikaa.com/media/wysiwyg/uiTools/2024-8/Top-Strip.jpg");
+    
+    padding: 10px;
+   
+   
+}
+.feature{
+    display: flex;
+   
+   
+ 
+}
+.feature .app{
+    display: flex;
+    margin: inline 22px;
+    
+    
+   
+}
+.feature .app i{
+    margin-inline: 18px;
+    }
+
+    /*end of the first navigation bar*/
+
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border-bottom: 1px solid silver;
+    padding-bottom: 22px;
+    margin-inline: 10px;
+    
+}
+
+
+.sec-nav ul li img{
+    width: 8%;
+    margin-left: 180px;
+}
+
+.sec-nav ul li a{
+    margin-inline: 10px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    
+}
+.sec-nav .inputs{
+    display: flex;
+    
+    
+}
+.sec-nav .inputs button{
+  margin-inline: 10px;
+  cursor: pointer;
+ 
+  
+}
+
+ .sec-nav .inputs input{
+   margin-right: 20px;
+    margin-top: 22px;
+    width: 320px;
+    background-color: rgba(235, 231, 231, 0.638);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.inputs button{
+    width: 80px;
+    height: 35px;
+    background-color:rgb(190, 0, 98);
+    color: rgba(239, 238, 236, 0.874);
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 22px;
+    margin-right: 350px;
+    margin-inline: 22px;
+
+}
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 8px;
+    border-bottom: 5px solid rgb(235, 233, 233);
+    font-family: 'Inter', sans-serif;
+    
+}
+.items ul li a{
+    list-style: none;
+  margin-inline: 22px;
+  text-align: center;
+  color: rgba(3, 2, 26, 0.6);
+  cursor: pointer;
+}
+.items ul li button{
+   width: 100px;
+   height: 34px;
+   width: 80px;
+   height: 35px;
+   background-color:rgb(190, 0, 98);
+   color: rgba(239, 238, 236, 0.874);
+   font-size: 17px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+.items ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.wrap{
+    margin-bottom: 32px;
+}
+.main-img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 22px;
+   
+}
+.main-img img{
+     width: 32%;
+     border-radius: 12px;/* curve around the imge*/
+}
+.pink img{
+    width: 100%;
+}
+
+.pink h2{
+    text-align: center;
+    padding: 8px;
+}
+.brands h2{
+    margin-top:8px ;
+    text-align: center;
+}
+.cards{
+  
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top:32px;
+   
+   
+   
+}
+.cards img{
+        width: 23%;
+        margin-inline:8px;
+
+}
+.cards-name{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 24px;
+}
+.cards-name li{
+    list-style: none;
+   
+}
+
+.cards-name li a{
+    margin-inline: 115px;
+    padding-top: 8px;
+   font-family: Inter, Roboto, Arial, sans-serif;
+   
+}
+.cards-sub{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 15px;
+}
+.cards-sub li{
+    list-style: none;
+   
+}
+.cards-sub li a{
+    margin-inline: 138px;
+    padding-top: 8px;
+   font-family: Inter, Roboto, Arial, sans-serif;
+}
+.brands{
+    background-color: rgb(246, 241, 241);
+    width:100%;
+    height:500px ;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.topbrd{
+    padding:8px ;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.topbrd img{
+    margin-inline: 22px;
+    width: 30%;
+}
+
+.discover-solution h2{
+
+   padding: 8px;
+    text-align: center;
+   
+}
+
+.discover-solution .monsoon{
+   
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.discover-solution .monsoon img{
+   padding:8px;
+    margin-inline: 22px;
+  
+    width: 100%;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 42px;
+}
+.products img{
+    width: 18%;
+    margin-inline: 18px;
+
+}
+.focus{
+    background-color: rgb(246, 241, 241);
+    width:100%;
+    height:600px ;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.focus h2{
+    text-align: center;
+    padding: 22px;
+
+}
+
+.focus .focus-on{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.focus-on img{
+    width: 100%;
+    margin-inline: 22px;
+}
+.focus-image {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.focus-image img{
+    width: 30%;
+    margin-inline: 22px;
+    border-radius: 12px;
+}
+.luxe{
+    background-color: rgb(246, 241, 241);
+    width:100%;
+    height:800px ;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.luxe .nyka-luxe{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.nyka-luxe img{
+    margin-inline: 22px;
+    width: 100%;
+
+}
+.luxe-brands{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.luxe-brands img{
+    width: 18%;
+    margin-inline:15px;
+}
+.luxe-add{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   
+}
+
+.luxe-add img{
+    width: 22%;
+    margin-inline: 5px;
+    border-radius: 12px;
+}
+
+.footer{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: gray;
+}
+.see-luxe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.see-luxe img{
+    width: 100%;
+}
+.kbeauty{
+    width: 100%;
+}
+.kbeauty-logo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.kbeauty-logo img{
+    width: 11%;
+    margin-inline: 8px;
+}
+.gift{
+    width: 100%;
+}
+.gift-cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.gift-cards img{
+    width: 48%;
+    margin-inline: 12px;
+    border-radius: 12px;
+}
+.shade img{
+    width: 100%;
+    
+}
+.shadesfit{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}.shadesfit img{
+    width: 33%;
+    margin-inline: 22px;
+}
+.ambas img{
+ width: 100%;
+}
+.stellar img{
+    width: 100%;
+}
+.stellar-add{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+
+}
+.stellar-add img{
+    width: 33%;
+    margin-inline:22px;
+}
+
+.please img{
+    width: 100%;
+}
+.nyk h2{
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    
+}
+
+.footer li{
+    flex-direction: column;
+}
+.footer ul li{
+    list-style: none;
+    padding-top: 32px;
+}
+
+.footer ul li a {
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    color: rgb(246, 241, 241); 
+    cursor: pointer;
+    
+}
+.footer ul li h2{
+    color: rgb(246, 241, 241); 
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
